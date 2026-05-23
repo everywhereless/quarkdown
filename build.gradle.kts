@@ -178,7 +178,7 @@ val jlinkTargets =
         JlinkTarget(
             id = "linux-aarch64",
             taskSuffix = "LinuxAarch64",
-            jdkArchive = "OpenJDK17U-jdk_aarch64_linux_hotspot_$jdkFileVersion.zip",
+            jdkArchive = "OpenJDK17U-jdk_aarch64_linux_hotspot_$jdkFileVersion.tar.gz",
             jdkHomeRelative = "jdk-$jdkVersion",
         ),
     )
